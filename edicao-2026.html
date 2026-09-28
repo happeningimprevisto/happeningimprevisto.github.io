@@ -23,13 +23,12 @@
      pintura (.splat e .tex-a / .tex-b). O resto é igual ao site principal.
   3. TÍTULOS MANUSCRITOS — os elementos com class="mix" ficam com letras
      grossas e finas alternadas, como nos cartazes. É automático.
-  4. CARTAZES — os das 5 conferências já estão (fotos/2026-conf-*.jpg, 16:9,
-     1600×900). A exposição e a leitura encenada ainda têm um espaço reservado
-     <div class="ph">; quando os cartazes chegarem, trocar essa <div> por
-       <img src="fotos/2026-….jpg" width="1000" height="1500" loading="lazy" decoding="async"
-            alt="…" data-alt-pt="…" data-alt-en="…">
-     (juntar class="f-art rv"; a exposição leva também class="mult" se o cartaz
-     tiver fundo branco).
+  4. CARTAZES E FOTOS — as 5 conferências têm cartaz (fotos/2026-conf-*.jpg,
+     16:9, 1600×900). A exposição usa uma FOTOGRAFIA (fotos/2026-exposicao.jpg)
+     e a leitura encenada usa a imagem da publicação do Instagram
+     (fotos/2026-teatro.jpg). Para trocar por cartazes novos, substituir o
+     ficheiro com o mesmo nome (ou mudar src, width, height e o alt PT/EN em
+     <img class="f-art rv">; class="mult" só se o cartaz tiver fundo branco).
   5. TEXTOS POR BAIXO DOS CARTAZES — onde há um comentário TEXTO o texto é
      provisório (exposição, Antígona e última conferência) ou ainda falta (as
      outras 4 conferências). A linha «Com a participação de…» já está, com os
@@ -295,7 +294,8 @@
       <li><a class="m-main cur" href="#topo" aria-current="page"><span><span lang="pt">Edição</span><span lang="en">Edition</span> 2026</span></a></li>
       <li><a class="m-main js-page" href="edicao-2025.html"><span><span lang="pt">Edição</span><span lang="en">Edition</span> 2025</span></a></li>
       <li><a class="m-main js-page" href="edicao-2024.html"><span><span lang="pt">Edição</span><span lang="en">Edition</span> 2024</span></a></li>
-      <li><a class="m-main js-page" href="contactos.html"><span><span lang="pt">Contactos</span><span lang="en">Contact</span></span></a></li>
+      <li><a class="m-main js-page" href="galeria.html"><span><span lang="pt">Galeria</span><span lang="en">Gallery</span></span></a></li>
+      <li><a class="m-main js-page" href="index.html#contactos"><span><span lang="pt">Contactos</span><span lang="en">Contact</span></span></a></li>
     </ol>
   </nav>
   <div class="m-foot">Associação Cultural Imprevisto</div>
@@ -355,14 +355,7 @@
       <h2 class="sec-title"><span class="sec-num">I.</span><span><span lang="pt">Exposição</span><span lang="en">Exhibition</span></span></h2>
     </header>
     <div class="feature">
-      <div class="ph tall rv" role="img" aria-label="Cartaz por chegar: exposição «O essencial é visível aos olhos» — vida e obra de William Congdon, 11 a 15 de maio" data-label-pt="Cartaz por chegar: exposição «O essencial é visível aos olhos» — vida e obra de William Congdon, 11 a 15 de maio" data-label-en="Poster to come: exhibition “The essential is visible to the eyes” — life and work of William Congdon, 11 to 15 May">
-          <span class="ph-k"><span lang="pt">Cartaz em breve</span><span lang="en">Poster coming soon</span></span>
-          <span class="ph-b">
-            <span class="ph-d"><span lang="pt">11–15 <small>maio</small></span><span lang="en">11–15 <small>May</small></span></span>
-            <span class="ph-t"><span lang="pt">O essencial é visível aos olhos</span><span lang="en">The essential is visible to the eyes</span></span>
-            <span class="ph-s"><span lang="pt">Vida e obra de William Congdon</span><span lang="en">Life and work of William Congdon</span></span>
-          </span>
-        </div>
+      <img class="f-art rv" src="fotos/2026-exposicao.jpg" width="1179" height="1973" loading="lazy" decoding="async" alt="Fotografia da exposição «O essencial é visível aos olhos» — vida e obra de William Congdon: uma visitante a ler os painéis no átrio da FLUL" data-alt-pt="Fotografia da exposição «O essencial é visível aos olhos» — vida e obra de William Congdon: uma visitante a ler os painéis no átrio da FLUL" data-alt-en="Photograph of the exhibition “The essential is visible to the eyes” — life and work of William Congdon: a visitor reading the panels in the FLUL atrium">
       <div class="f-body rv">
         <h3 class="sr"><span lang="pt">O essencial é visível aos olhos — Vida e obra de William Congdon</span><span lang="en">The essential is visible to the eyes — Life and work of William Congdon</span></h3>
         <div class="info">
@@ -442,14 +435,7 @@
         <!-- TEXTO: a partir da publicação de 16 maio do @ac.imprevisto. Substituir pelo texto de apresentação, se existir. -->
         <p class="f-text"><span lang="pt">Na quinta-feira, o átrio da faculdade transformou-se numa sala de espetáculos para a leitura encenada da <i>Antígona</i>, de Sófocles, pela Companhia de Teatro DedicAr-Te, que, uma vez mais, pôs generosamente o seu talento ao serviço do Happening.</span><span lang="en">On Thursday, the faculty atrium became a theatre for the staged reading of <i>Antigone</i>, by Sophocles, performed by the DedicAr-Te Theatre Company, who once again generously put their talent at the service of Happening.</span></p>
       </div>
-      <div class="ph rv" role="img" aria-label="Cartaz por chegar: leitura encenada de «Antígona», de Sófocles — quinta-feira, 14 de maio, 20h, átrio da FLUL" data-label-pt="Cartaz por chegar: leitura encenada de «Antígona», de Sófocles — quinta-feira, 14 de maio, 20h, átrio da FLUL" data-label-en="Poster to come: staged reading of “Antigone”, by Sophocles — Thursday, 14 May, 8 pm, FLUL atrium">
-          <span class="ph-k"><span lang="pt">Cartaz em breve</span><span lang="en">Poster coming soon</span></span>
-          <span class="ph-b">
-            <span class="ph-d"><span lang="pt">14 <small>maio</small></span><span lang="en">14 <small>May</small></span></span>
-            <span class="ph-t"><span lang="pt">Antígona</span><span lang="en">Antigone</span></span>
-            <span class="ph-s"><span lang="pt">Sófocles · leitura encenada · 20h</span><span lang="en">Sophocles · staged reading · 8 pm</span></span>
-          </span>
-        </div>
+      <img class="f-art rv" src="fotos/2026-teatro.jpg" width="1179" height="1450" loading="lazy" decoding="async" alt="Cartaz da leitura encenada de «Antígona», de Sófocles — Quinta-feira, 14 de maio, 20h, átrio da FLUL" data-alt-pt="Cartaz da leitura encenada de «Antígona», de Sófocles — Quinta-feira, 14 de maio, 20h, átrio da FLUL" data-alt-en="Poster of the staged reading of “Antigone”, by Sophocles — Thursday, 14 May, 8 pm, FLUL atrium">
     </div>
   </div>
 </section>
